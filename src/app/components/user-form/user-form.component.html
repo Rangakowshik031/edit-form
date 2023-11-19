@@ -1,0 +1,13 @@
+
+
+<!-- src/app/components/user-form/user-form.component.html -->
+<div>
+    <label for="name">Name:</label>
+    <input id="name" [(ngModel)]="user.name" name="name" />
+  
+    <label for="email">Email:</label>
+    <input id="email" [(ngModel)]="user.email" name="email" />
+  
+    <button (click)="onSave()">Save</button>
+  </div>
+  
